@@ -61,53 +61,57 @@ class _HomesWidgetState extends State<HomesWidget> {
                 ),
               ),
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(8.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Container(
-                          width: 42.0,
-                          height: 42.0,
-                          decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).primary,
-                            borderRadius: BorderRadius.circular(8.0),
-                          ),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Image.asset(
-                              'assets/images/logo-blanco.png',
-                              width: 40.0,
-                              height: 40.0,
-                              fit: BoxFit.cover,
+                    Padding(
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Container(
+                            width: 42.0,
+                            height: 42.0,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context).primary,
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: Image.asset(
+                                'assets/images/logo-blanco.png',
+                                width: 40.0,
+                                height: 40.0,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                           ),
-                        ),
-                        Text(
-                          'Morboseo.com',
-                          style: FlutterFlowTheme.of(context)
-                              .displayMedium
-                              .override(
-                                fontFamily: 'ADLaM Display',
-                                letterSpacing: 0.0,
-                              ),
-                        ),
-                        FlutterFlowIconButton(
-                          borderRadius: 8.0,
-                          buttonSize: 48.0,
-                          icon: Icon(
-                            Icons.menu,
-                            color: FlutterFlowTheme.of(context).info,
-                            size: 34.0,
+                          Text(
+                            'Morboseo.com',
+                            style: FlutterFlowTheme.of(context)
+                                .displaySmall
+                                .override(
+                                  fontFamily: 'ADLaM Display',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          onPressed: () {
-                            print('IconButton pressed ...');
-                          },
-                        ),
-                      ].divide(const SizedBox(width: 8.0)),
+                          FlutterFlowIconButton(
+                            borderRadius: 8.0,
+                            buttonSize: 48.0,
+                            icon: Icon(
+                              Icons.menu,
+                              color: FlutterFlowTheme.of(context).info,
+                              size: 34.0,
+                            ),
+                            onPressed: () {
+                              print('IconButton pressed ...');
+                            },
+                          ),
+                        ].divide(const SizedBox(width: 8.0)),
+                      ),
                     ),
                     Divider(
                       thickness: 1.0,
@@ -116,10 +120,9 @@ class _HomesWidgetState extends State<HomesWidget> {
                     Text(
                       'Search Engine Optimization and Hosting for Flutter Flow And Flutter Web Applications ',
                       textAlign: TextAlign.center,
-                      style: FlutterFlowTheme.of(context).bodyLarge.override(
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Open Sans',
                             letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
                           ),
                     ),
                   ],
@@ -132,24 +135,11 @@ class _HomesWidgetState extends State<HomesWidget> {
                 height: 100.0,
                 decoration: const BoxDecoration(),
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 16.0),
-                        child: Text(
-                          'Flutter Seo',
-                          style: FlutterFlowTheme.of(context)
-                              .headlineLarge
-                              .override(
-                                fontFamily: 'Roboto',
-                                letterSpacing: 0.0,
-                              ),
-                        ),
-                      ),
                       Container(
                         width: 420.0,
                         decoration: BoxDecoration(
@@ -194,7 +184,7 @@ class _HomesWidgetState extends State<HomesWidget> {
                                         Text(
                                           'Flutter Seo',
                                           style: FlutterFlowTheme.of(context)
-                                              .headlineLarge
+                                              .headlineMedium
                                               .override(
                                                 fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
@@ -268,7 +258,7 @@ class _HomesWidgetState extends State<HomesWidget> {
                                         Text(
                                           'Flutter Seo',
                                           style: FlutterFlowTheme.of(context)
-                                              .headlineLarge
+                                              .headlineMedium
                                               .override(
                                                 fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
@@ -342,7 +332,7 @@ class _HomesWidgetState extends State<HomesWidget> {
                                         Text(
                                           'Flutter Seo',
                                           style: FlutterFlowTheme.of(context)
-                                              .headlineLarge
+                                              .headlineMedium
                                               .override(
                                                 fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
@@ -406,8 +396,8 @@ class _HomesWidgetState extends State<HomesWidget> {
                         ],
                       ),
                     ]
-                        .divide(const SizedBox(height: 16.0))
-                        .around(const SizedBox(height: 16.0)),
+                        .divide(const SizedBox(height: 8.0))
+                        .around(const SizedBox(height: 8.0)),
                   ),
                 ),
               ),
@@ -424,7 +414,7 @@ class _HomesWidgetState extends State<HomesWidget> {
                 ),
               ),
               child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+                padding: const EdgeInsets.all(8.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
