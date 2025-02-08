@@ -32,64 +32,8 @@ abstract class FlutterFlowTheme {
   late Color error;
   late Color info;
 
-  late Color blue100;
-  late Color blue700;
-  late Color blue800;
-  late Color blue900;
-  late Color gray0;
-  late Color gray300;
-  late Color gray500;
-  late Color gray700;
-  late Color gray900;
-  late Color neutralBlack;
-  late Color neutralOffWhite;
-  late Color brownGold;
-  late Color deepGold;
-  late Color lightGold;
-  late Color whiteGold;
-  late Color aliceBlue;
-  late Color black;
-  late Color breezeBlue;
-  late Color cornflowerBlue;
-  late Color cultured;
-  late Color darkGrey;
-  late Color darkSlateBlue;
-  late Color darkSlateGrey;
-  late Color greenandBlack;
-  late Color gold;
-  late Color indianRed;
-  late Color lightGrey;
-  late Color lightSlateGrey;
-  late Color lightSkyBlue;
-  late Color magicshowRed;
-  late Color mediumAquamarine;
-  late Color mediumGrey;
-  late Color midnightBlue;
-  late Color midnightBlue2;
-  late Color oldLace;
-  late Color purple;
-  late Color red;
-  late Color royalBlue;
-  late Color seaGreen;
-  late Color backgroundInteractive;
-  late Color foregroundInteractive;
-  late Color foregroundInteractiveHover;
-  late Color white;
-  late Color sweetPea;
-  late Color sweetPink;
-  late Color sweetViolet;
-  late Color tomato;
-  late Color totalBlue;
-  late Color turquoise;
-  late Color gray100;
-  late Color gray600;
-  late Color gray800;
-  late Color primary100;
-  late Color primary600;
-  late Color primary700;
-  late Color primary800;
-  late Color success50;
-  late Color success700;
+  late Color logo;
+  late Color logo2;
 
   @Deprecated('Use displaySmallFamily instead')
   String get title1Family => displaySmallFamily;
@@ -162,81 +106,25 @@ class LightModeTheme extends FlutterFlowTheme {
   @Deprecated('Use tertiary instead')
   Color get tertiaryColor => tertiary;
 
-  late Color primary = const Color(0xFF62C275);
-  late Color secondary = const Color(0xFFFFDE54);
-  late Color tertiary = const Color(0xFF85C2FF);
-  late Color alternate = const Color(0xFFDBE2E7);
-  late Color primaryText = const Color(0xFFFFFFFF);
+  late Color primary = const Color(0xFF5E96D8);
+  late Color secondary = const Color(0xFFFAFAFA);
+  late Color tertiary = const Color(0xFF0F0F0F);
+  late Color alternate = const Color(0xFF8398A5);
+  late Color primaryText = const Color(0xFF284C64);
   late Color secondaryText = const Color(0xFF062539);
-  late Color primaryBackground = const Color(0xFF062539);
-  late Color secondaryBackground = const Color(0xFF01304B);
-  late Color accent1 = const Color(0x6B62C275);
-  late Color accent2 = const Color(0x6AFFDE54);
-  late Color accent3 = const Color(0x6A85C2FF);
-  late Color accent4 = const Color(0xB3FFFFFF);
-  late Color success = const Color(0xFF39D2C0);
-  late Color warning = const Color(0xFFC96F46);
-  late Color error = const Color(0xFFE65454);
-  late Color info = const Color(0xFF1C4494);
+  late Color primaryBackground = const Color(0xFF063E5F);
+  late Color secondaryBackground = const Color(0xFF052F47);
+  late Color accent1 = const Color(0xFF7470AC);
+  late Color accent2 = const Color(0xFFE7EDF1);
+  late Color accent3 = const Color(0xFFDF8EC8);
+  late Color accent4 = const Color(0xFFC9C5F4);
+  late Color success = const Color(0xFF62C275);
+  late Color warning = const Color(0xFFFFDE54);
+  late Color error = const Color(0xFFDE665A);
+  late Color info = const Color(0xFF5E96D8);
 
-  late Color blue100 = const Color(0xFFECEEFE);
-  late Color blue700 = const Color(0xFF7788F8);
-  late Color blue800 = const Color(0xFF6478F7);
-  late Color blue900 = const Color(0xFF5167F6);
-  late Color gray0 = const Color(0xFFDEDFE3);
-  late Color gray300 = const Color(0xFFD0D5DD);
-  late Color gray500 = const Color(0xFF667085);
-  late Color gray700 = const Color(0xFF344054);
-  late Color gray900 = const Color(0xFF101828);
-  late Color neutralBlack = const Color(0xFF000000);
-  late Color neutralOffWhite = const Color(0xFFF4F4F6);
-  late Color brownGold = const Color(0xFF53461F);
-  late Color deepGold = const Color(0xFFCCB140);
-  late Color lightGold = const Color(0xFFFEF1CB);
-  late Color whiteGold = const Color(0xFFFFFBEE);
-  late Color aliceBlue = const Color(0xFFEAF3F8);
-  late Color black = const Color(0xFF000000);
-  late Color breezeBlue = const Color(0xFF4073AF);
-  late Color cornflowerBlue = const Color(0xFF5E96D8);
-  late Color cultured = const Color(0xFFEFEFEF);
-  late Color darkGrey = const Color(0xFF284C64);
-  late Color darkSlateBlue = const Color(0xFF204C70);
-  late Color darkSlateGrey = const Color(0xFF244639);
-  late Color greenandBlack = const Color(0xFF11251E);
-  late Color gold = const Color(0xFFFFDE54);
-  late Color indianRed = const Color(0xFFC45656);
-  late Color lightGrey = const Color(0xFFACBBC4);
-  late Color lightSlateGrey = const Color(0xFFACBBC4);
-  late Color lightSkyBlue = const Color(0xFF85C2FF);
-  late Color magicshowRed = const Color(0xFFF48882);
-  late Color mediumAquamarine = const Color(0xFF46C3AD);
-  late Color mediumGrey = const Color(0xFF8398A5);
-  late Color midnightBlue = const Color(0xFF01273D);
-  late Color midnightBlue2 = const Color(0xFF02314C);
-  late Color oldLace = const Color(0xFFF9F5E8);
-  late Color purple = const Color(0xFF7470AC);
-  late Color red = const Color(0xFFFDD8E0);
-  late Color royalBlue = const Color(0xFF2F6391);
-  late Color seaGreen = const Color(0xFF59BF74);
-  late Color backgroundInteractive = const Color(0xFFF0ECFD);
-  late Color foregroundInteractive = const Color(0xFF5532FA);
-  late Color foregroundInteractiveHover = const Color(0xFF1E116E);
-  late Color white = const Color(0xFFFFFFFF);
-  late Color sweetPea = const Color(0xFFBBEFB1);
-  late Color sweetPink = const Color(0xFFFFD1D1);
-  late Color sweetViolet = const Color(0xFFC9C6F4);
-  late Color tomato = const Color(0xFFDE665A);
-  late Color totalBlue = const Color(0xFF001A29);
-  late Color turquoise = const Color(0xFF34D1BF);
-  late Color gray100 = const Color(0xFFF2F4F7);
-  late Color gray600 = const Color(0xFF475467);
-  late Color gray800 = const Color(0xFF1D2939);
-  late Color primary100 = const Color(0xFFF4EBFF);
-  late Color primary600 = const Color(0xFF7F56D9);
-  late Color primary700 = const Color(0xFF6941C6);
-  late Color primary800 = const Color(0xFF53389E);
-  late Color success50 = const Color(0xFFECFDF3);
-  late Color success700 = const Color(0xFF027A48);
+  late Color logo = const Color(0xFF007AFF);
+  late Color logo2 = const Color(0xFFFAFAFA);
 }
 
 abstract class Typography {
@@ -277,109 +165,110 @@ class ThemeTypography extends Typography {
 
   final FlutterFlowTheme theme;
 
-  String get displayLargeFamily => 'Plus Jakarta Sans';
+  String get displayLargeFamily => 'ADLaM Display';
   TextStyle get displayLarge => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.primaryText,
-        fontWeight: FontWeight.bold,
-        fontSize: 54.0,
+        'ADLaM Display',
+        color: theme.primary,
+        fontWeight: FontWeight.w600,
+        fontSize: 42.0,
       );
-  String get displayMediumFamily => 'Plus Jakarta Sans';
+  String get displayMediumFamily => 'ADLaM Display';
   TextStyle get displayMedium => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.secondaryText,
-        fontWeight: FontWeight.bold,
-        fontSize: 54.0,
+        'ADLaM Display',
+        color: theme.primary,
+        fontWeight: FontWeight.normal,
+        fontSize: 34.0,
       );
-  String get displaySmallFamily => 'Plus Jakarta Sans';
+  String get displaySmallFamily => 'ADLaM Display';
   TextStyle get displaySmall => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.gray700,
-        fontWeight: FontWeight.bold,
-        fontSize: 54.0,
+        'ADLaM Display',
+        color: theme.primary,
+        fontWeight: FontWeight.w300,
+        fontSize: 26.0,
       );
-  String get headlineLargeFamily => 'Plus Jakarta Sans';
+  String get headlineLargeFamily => 'Roboto';
   TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.primaryText,
-        fontWeight: FontWeight.normal,
-        fontSize: 36.0,
+        'Roboto',
+        color: theme.secondary,
+        fontWeight: FontWeight.w600,
+        fontSize: 22.0,
       );
-  String get headlineMediumFamily => 'Plus Jakarta Sans';
+  String get headlineMediumFamily => 'Roboto';
   TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.primaryText,
+        'Roboto',
+        color: theme.secondary,
         fontWeight: FontWeight.normal,
-        fontSize: 32.0,
-      );
-  String get headlineSmallFamily => 'Plus Jakarta Sans';
-  TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.primaryText,
-        fontWeight: FontWeight.w500,
-        fontSize: 28.0,
-      );
-  String get titleLargeFamily => 'Plus Jakarta Sans';
-  TextStyle get titleLarge => GoogleFonts.getFont(
-        'Plus Jakarta Sans',
-        color: theme.secondaryText,
-        fontWeight: FontWeight.w500,
-        fontSize: 24.0,
-      );
-  String get titleMediumFamily => 'Space Grotesk';
-  TextStyle get titleMedium => GoogleFonts.getFont(
-        'Space Grotesk',
-        color: theme.secondaryText,
-        fontWeight: FontWeight.w500,
-        fontSize: 20.0,
-      );
-  String get titleSmallFamily => 'Space Grotesk';
-  TextStyle get titleSmall => GoogleFonts.getFont(
-        'Space Grotesk',
-        color: theme.secondaryText,
-        fontWeight: FontWeight.w500,
         fontSize: 18.0,
       );
-  String get labelLargeFamily => 'Space Grotesk';
+  String get headlineSmallFamily => 'Roboto';
+  TextStyle get headlineSmall => GoogleFonts.getFont(
+        'Roboto',
+        color: theme.secondary,
+        fontWeight: FontWeight.w300,
+        fontSize: 14.0,
+      );
+  String get titleLargeFamily => 'Open Sans';
+  TextStyle get titleLarge => GoogleFonts.getFont(
+        'Open Sans',
+        color: theme.tertiary,
+        fontWeight: FontWeight.w600,
+        fontSize: 22.0,
+      );
+  String get titleMediumFamily => 'Open Sans';
+  TextStyle get titleMedium => GoogleFonts.getFont(
+        'Open Sans',
+        color: theme.tertiary,
+        fontWeight: FontWeight.normal,
+        fontSize: 18.0,
+      );
+  String get titleSmallFamily => 'Open Sans';
+  TextStyle get titleSmall => GoogleFonts.getFont(
+        'Open Sans',
+        color: theme.tertiary,
+        fontWeight: FontWeight.w300,
+        fontSize: 14.0,
+      );
+  String get labelLargeFamily => 'Open Sans';
   TextStyle get labelLarge => GoogleFonts.getFont(
-        'Space Grotesk',
+        'Open Sans',
         color: theme.secondaryText,
-        fontWeight: FontWeight.normal,
-        fontSize: 20.0,
+        fontWeight: FontWeight.w600,
+        fontSize: 16.0,
       );
-  String get labelMediumFamily => 'Space Grotesk';
+  String get labelMediumFamily => 'Open Sans';
   TextStyle get labelMedium => GoogleFonts.getFont(
-        'Space Grotesk',
+        'Open Sans',
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 16.0,
+        fontSize: 14.0,
       );
-  String get labelSmallFamily => 'Space Grotesk';
+  String get labelSmallFamily => 'Open Sans';
   TextStyle get labelSmall => GoogleFonts.getFont(
-        'Space Grotesk',
+        'Open Sans',
         color: theme.secondaryText,
-        fontWeight: FontWeight.normal,
-        fontSize: 14.0,
+        fontWeight: FontWeight.w300,
+        fontSize: 12.0,
       );
-  String get bodyLargeFamily => 'Space Grotesk';
+  String get bodyLargeFamily => 'Open Sans';
   TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Space Grotesk',
+        'Open Sans',
         color: theme.primaryText,
-        fontSize: 20.0,
-      );
-  String get bodyMediumFamily => 'Space Grotesk';
-  TextStyle get bodyMedium => GoogleFonts.getFont(
-        'Space Grotesk',
-        color: theme.primaryText,
-        fontWeight: FontWeight.normal,
+        fontWeight: FontWeight.w600,
         fontSize: 16.0,
       );
-  String get bodySmallFamily => 'Space Grotesk';
-  TextStyle get bodySmall => GoogleFonts.getFont(
-        'Space Grotesk',
+  String get bodyMediumFamily => 'Open Sans';
+  TextStyle get bodyMedium => GoogleFonts.getFont(
+        'Open Sans',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
+      );
+  String get bodySmallFamily => 'Open Sans';
+  TextStyle get bodySmall => GoogleFonts.getFont(
+        'Open Sans',
+        color: theme.primaryText,
+        fontWeight: FontWeight.w300,
+        fontSize: 12.0,
       );
 }
 

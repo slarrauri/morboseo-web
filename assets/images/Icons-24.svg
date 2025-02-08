@@ -1,0 +1,9 @@
+<svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0425 5.80005C14.8379 5.80005 13.0508 7.61898 13.0508 9.8568L13.0508 48.1433C13.0508 50.3838 14.8342 52.2001 17.0425 52.2001H40.959C43.1636 52.2001 44.9508 50.3811 44.9508 48.1433V9.8568C44.9508 7.61632 43.1673 5.80005 40.959 5.80005L17.0425 5.80005Z" fill="#62C275"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 17.6094 10.4399)" fill="white"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 17.6094 24.3599)" fill="black" fill-opacity="0.25"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 31.2812 10.4399)" fill="black" fill-opacity="0.25"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 31.2812 24.3599)" fill="black" fill-opacity="0.25"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 17.6094 38.28)" fill="black" fill-opacity="0.25"/>
+<ellipse cx="4.64" cy="4.55714" rx="4.64" ry="4.55714" transform="matrix(0 1 1 0 31.2812 38.28)" fill="black" fill-opacity="0.25"/>
+</svg>

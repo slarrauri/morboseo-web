@@ -1,4 +1,4 @@
-# Morbo SEO
+# Morboseo
 
 A new Flutter project.
 
