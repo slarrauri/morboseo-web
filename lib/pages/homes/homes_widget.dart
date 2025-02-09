@@ -8,6 +8,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'homes_model.dart';
 export 'homes_model.dart';
 
+/// VAmos este random que estoy muy creativamente
 class HomesWidget extends StatefulWidget {
   const HomesWidget({super.key});
 
@@ -369,27 +370,30 @@ class _HomesWidgetState extends State<HomesWidget> {
                           Padding(
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 16.0, 0.0, 0.0),
-                            child: FFButtonWidget(
-                              onPressed: () {
-                                print('Button pressed ...');
-                              },
-                              text: '¡Descubre más!',
-                              options: FFButtonOptions(
-                                width: 360.0,
-                                height: 60.0,
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    16.0, 0.0, 16.0, 0.0),
-                                iconPadding: const EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 0.0, 0.0, 0.0),
-                                color: FlutterFlowTheme.of(context).warning,
-                                textStyle: FlutterFlowTheme.of(context)
-                                    .titleLarge
-                                    .override(
-                                      fontFamily: 'Open Sans',
-                                      letterSpacing: 0.0,
-                                    ),
-                                elevation: 0.0,
-                                borderRadius: BorderRadius.circular(16.0),
+                            child: Semantics(
+                              label: 'Boton descubre',
+                              child: FFButtonWidget(
+                                onPressed: () {
+                                  print('Button pressed ...');
+                                },
+                                text: '¡Descubre más!',
+                                options: FFButtonOptions(
+                                  width: 360.0,
+                                  height: 60.0,
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      16.0, 0.0, 16.0, 0.0),
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 0.0),
+                                  color: FlutterFlowTheme.of(context).warning,
+                                  textStyle: FlutterFlowTheme.of(context)
+                                      .titleLarge
+                                      .override(
+                                        fontFamily: 'Open Sans',
+                                        letterSpacing: 0.0,
+                                      ),
+                                  elevation: 0.0,
+                                  borderRadius: BorderRadius.circular(16.0),
+                                ),
                               ),
                             ),
                           ),
